@@ -23,4 +23,17 @@ const canIVote = age => {
       return false
     }
   }
-  
+
+//3.
+// Write a function, agreeOrDisagree(), that takes in two strings, and returns 'You agree!' if the two strings are the same and 'You disagree!' if the two strings are different.
+
+// Write your function here:
+const agreeOrDisagree = (hey, hi) => {
+    if(hey === hi) {
+      return 'You agree!'
+    }else {
+      return 'You disagree!'
+    };
+  };
+
+4.
