@@ -164,4 +164,15 @@ const planet = 'Mars';
 
 const weightOnPlanet = calculateWeight(earthWeight, planet);
 console.log(`Your weight on ${planet} would be ${weightOnPlanet} pounds.`);
+
+// 9.
+// It can be hard to keep track of what’s truthy or falsy in JavaScript. Write a function, truthyOrFalsy(), that takes in any value and returns true if that value is truthy and false if that value is falsy.
+const truthyOrFalsy = value => {
+    if(value){
+      return true
+    }else  {
+      return false
+    }
+  }
+  
   
